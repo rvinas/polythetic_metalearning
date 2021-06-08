@@ -1,0 +1,6 @@
+torch==1.7.0
+torch-scatter==2.0.5
+torchvision==0.8.1
+numpy==1.19.2
+matplotlib==3.3.3
+jupyterlab==2.2.9
