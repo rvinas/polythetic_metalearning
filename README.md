@@ -1,6 +1,6 @@
 # Attentional meta-learners are polythetic classifiers
 
-This folder contains reproducible code for the paper: _Attentional meta-learners are polythetic classifers_
+This repo contains reproducible code for the paper: _Attentional meta-learners are polythetic classifers_
 
 #### Installation
 Python version: 3.8.5
