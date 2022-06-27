@@ -1,8 +1,19 @@
-# Attentional meta-learners are polythetic classifiers
+# Attentional Meta-learners for Few-shot Polythetic Classification
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/rvinas/polythetic_metalearning/blob/main/LICENCE) [![Python 3.8+](https://img.shields.io/badge/python-3.7+-blue.svg)](https://www.python.org/downloads/release/python-370/)
 
-This repo contains reproducible code for the paper: _Attentional meta-learners are polythetic classifers_
+Official code for the paper **Attentional Meta-learners for Few-shot Polythetic Classification**, ICML 2022
+ ([Ben Day*](https://www.cl.cam.ac.uk/~bjd39/), 
+ [Ramon Viñas*](https://www.linkedin.com/in/ramon-vinas/), 
+ [Nikola Simidjievski](https://simidjievskin.github.io/),
+ [Pietro Liò](https://www.cl.cam.ac.uk/~pl219/))
+ 
+ ## Abstract 
 
-#### Installation
+Polythetic classifications, based on shared patterns of features that need neither be universal nor constant among members of a class, are common in the natural world and greatly outnumber monothetic classifications over a set of features. We show that threshold meta-learners, such as Prototypical Networks, require an embedding dimension that is exponential in the number of task-relevant features to emulate these functions. In contrast, attentional classifiers, such as Matching Networks, are polythetic by default and able to solve these problems with a linear embedding dimension. However, we find that in the presence of task-irrelevant features, inherent to meta-learning problems, attentional models are susceptible to misclassification. To address this challenge, we propose a self-attention feature-selection mechanism that adaptively dilutes non-discriminative features. We demonstrate the effectiveness of our approach in meta-learning Boolean functions, and synthetic and real-world few-shot learning tasks.
+
+## Getting started
+
+### Installation
 Python version: 3.8.5
 
 To install the required libraries, please run the following command:
