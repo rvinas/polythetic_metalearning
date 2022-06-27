@@ -1,7 +1,7 @@
 # Attentional Meta-learners for Few-shot Polythetic Classification
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/rvinas/polythetic_metalearning/blob/main/LICENCE) [![Python 3.8+](https://img.shields.io/badge/python-3.7+-blue.svg)](https://www.python.org/downloads/release/python-370/)
 
-Official code for the paper **Attentional Meta-learners for Few-shot Polythetic Classification**, ICML 2022
+Official code for the paper [**Attentional Meta-learners for Few-shot Polythetic Classification**](https://arxiv.org/abs/2106.05317), ICML 2022
  ([Ben Day*](https://www.cl.cam.ac.uk/~bjd39/), 
  [Ramon Viñas*](https://www.linkedin.com/in/ramon-vinas/), 
  [Nikola Simidjievski](https://simidjievskin.github.io/),
