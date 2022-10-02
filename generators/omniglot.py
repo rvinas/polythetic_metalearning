@@ -161,7 +161,7 @@ class task_generator:
         self.val_classes = pickle.load(
             open('SPLITS_FOLDER/val_classes.pkl', 'rb'))
         self.test_classes = pickle.load(
-            open('SPLITS_FOLDER//test_classes.pkl', 'rb'))
+            open('SPLITS_FOLDER/test_classes.pkl', 'rb'))
         self.held_out = self.val_classes + self.test_classes
 
         #
